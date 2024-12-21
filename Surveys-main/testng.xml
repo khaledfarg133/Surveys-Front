@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/12/Automation/Surveys-main">
+        <classes>
+            <class name="TestCase.TC1_Satisfied">
+                <methods>
+                    <include name="testSatisfiedSurvey1"/>
+                    <include name="testSatisfiedSurvey6"/>
+                    <include name="testSatisfiedSurvey8"/>
+                    <include name="testSatisfiedSurvey9"/>
+                    <include name="testSatisfiedSurvey11"/>
+                    <include name="testSatisfiedSurvey13"/>
+                    <include name="testSatisfiedSurvey15"/>
+                    <include name="testSatisfiedSurvey16"/>
+                    <include name="testSatisfiedSurvey17"/>
+                    <include name="testSatisfiedSurvey20"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
